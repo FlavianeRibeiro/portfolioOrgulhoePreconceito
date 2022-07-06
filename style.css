@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;800&family=Roboto+Mono:wght@300&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EFEDDF;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5F90AF;
+    padding-top: 5px;
+}
+
+.cabecalho-img{
+    width: 8%;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.cabecalho-titulo{
+    width: 8%;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    color: white;
+    border: 1px white solid;
+    background-color: #5F90AF;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    color: #212353;
+    border: 1px #212353 solid;
+    margin: 5px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.conteudo-dis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudo-principal-titulo{
+    color: #5F90AF;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 800;
+    font-size: 60px;
+    transition: 0.4s;
+}
+
+.conteudo-principal-btn{
+    color: white;
+    background-color: #5F90AF;
+    border: 1px solid #5F90AF;
+    border-radius: 25px;
+    padding: 12px;
+    width: 20%;
+}
+
+.conteudo-principal-btn:hover{
+    border: 1px solid #212353;
+    color: #212353;
+}
+
+.conteudo-principal-descricao{
+    font-size: 20px;
+}
+
+.conteudo-img{
+    width: 32%;
+}
+.resenha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.resenha-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.resenha-img{
+    width: 20%;
+    height: 11%;
+}
+
+.resenha-div-descricao{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.resenha-div{
+    background-color: #5F90AF;
+    color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.resenha-div-titulo{
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.resenha-div-texto{
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.personagens-titutlo{
+    font-size: 40px;
+}
+
+.personagens-div{
+    padding: 20px;
+    width: 90;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.personagens-descricao {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #5F90AF;
+    border-radius: 25px;
+    padding: 2px 12px 2px 12px;
+}
+
+.personagens-descricao-img{
+    width: 40%;
+}
+
+.personagens-descricao-detalhe{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.personagens-descricao-name{
+    color:white;
+}
+
+.personagens-descricao-des{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.autora{
+    display: flex;
+    flex-direction: column;
+    background-color: #5F90AF;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.autora-img{
+    width: 30%;
+}
+
+.autora-nome{
+    color: #EFEDDF;
+    font-size: 40px;
+}
+
+.autora-descricao{
+    font-size: 15px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 50%;
+}
+
+.autora-text{
+    width: 80%;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #212353;
+    color: #EFEDDF;
+    justify-content: center;
+}
